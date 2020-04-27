@@ -1,0 +1,15 @@
+# **************** Configuration application ****************
+server.port=8081
+spring.cloud.discovery.enabled=false
+
+# **************** Configuration base de données ****************
+spring.datasource.url = jdbc:postgresql://localhost:5432/biblio-livre
+spring.datasource.username=biblio
+spring.datasource.password=Projet7
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# **************** Ma configuration ****************
+mes-configs.limiteDeLivres = 5
